@@ -1,0 +1,35 @@
+name: taskflow
+description: "TaskFlow — управление проектами и задачами (Flutter + SQLite/Drift)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # База данных
+  drift: ^2.22.0
+  drift_flutter: ^0.2.1
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Вложения
+  file_picker: ^10.3.3
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  drift_dev: ^2.22.0
+  build_runner: ^2.4.13
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
